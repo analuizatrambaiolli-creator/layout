@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+.Header{
+    background-color: rgb(235, 112, 11);
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 48px;
+}
+
+.Nav{
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(217, 134, 255);
+    justify-content: flex-end;
+    font-size: 48px;
+    
+}
+
+.Article{
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(0, 233, 155);
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+.Aside{
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(255, 243, 189);
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+.Footer{
+    height: 150px;
+    background-color: rgb(132, 0, 184);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 48px;
+}
